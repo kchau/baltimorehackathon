@@ -69,7 +69,7 @@ function loop(elem, spd)
     elem.removeClass('loop');
     var i = setInterval(function(){move_right(elem, Number(spd))}, refresh);
     elem.attr('int', i);
-  }, 1000);
+  }, 800);
 }
 
 function move_right(elem, spd)
